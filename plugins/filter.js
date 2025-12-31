@@ -1,10 +1,5 @@
 export async function before(m, { conn }) {
   if (!m.text) return false
-  if (m.text.startsWith('.')) return true
-  return false
-}
-export async function before(m, { conn }) {
-  if (!m.text) return false
 
   const text = m.text.toLowerCase()
 
