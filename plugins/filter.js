@@ -12,3 +12,4 @@ export async function before(m, { conn }) {
 
   return false
 }
+fix filter: allow salut messages
